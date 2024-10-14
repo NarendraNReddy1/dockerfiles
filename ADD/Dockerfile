@@ -1,3 +1,3 @@
 FROM almalinux:9 
-ADD https://raw.githubusercontent.com/daws-78s/notes/refs/heads/main/session-50.txt /tmp/session-50.txt 
+ADD https://raw.githubusercontent.com/daws-78s/notes/main/session-01.txt /tmp/session-01.txt
 CMD [ "sleep","60" ]
