@@ -2,6 +2,6 @@ ARG version
 FROM almalinux:${version}
 
 # ARG COURSE
-# ARG TRAINER
+# # ARG TRAINER
 # RUN echo "Course is: ${COURSE}, Trainer is: ${TRAINER}"
-# CMD [ "sleep","100" ]
+CMD [ "sleep","100" ]
